@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sample post",
+    "date": "2016-04-20T08:00:00.000Z",
+    "author": "Brad Pitt",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere magna nibh, vitae fringilla ante sagittis ac. Vestibulum tempus sed ipsum vel ornare. Mauris interdum diam in ex sodales lobortis. Sed ac vehicula ex. Duis egestas id urna eget facilisis. Curabitur consectetur molestie lacus, eget luctus velit ullamcorper at. Nunc sapien risus, eleifend condimentum turpis sit amet, pretium dapibus lacus. Maecenas eleifend mauris in turpis eleifend, a tincidunt erat varius."
+  },
+  {
+    "title": "Post cereal",
+    "date": "2016-04-20T09:00:00.000Z",
+    "author": "Brad Schmidt",
+    "body": "Maecenas finibus, felis a tincidunt finibus, erat arcu elementum lacus, rhoncus fringilla sem augue at velit. Nullam varius fermentum urna. Vestibulum lobortis ultrices iaculis. Aenean venenatis, ante sit amet blandit mollis, velit tellus lobortis diam, id ultricies nibh odio scelerisque mauris. Sed auctor non elit vel porta. Donec eleifend interdum nulla nec fringilla. Vestibulum at turpis sit amet dui porttitor porta. Integer eget purus lacus. Aenean eget orci risus."
+  }
+]

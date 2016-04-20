@@ -1,0 +1,33 @@
+<div ng-repeat="post in blog.posts">
+  <div class="row well">
+    <blog-post post="post"></blog-post>
+  </div>
+</div>
+
+<form name="postForm"
+  ng-controller="PostController as postCtrl"
+  ng-submit="postForm.$valid && postCtrl.addPost(blog)"
+  novalidate>
+
+  <div ng-show="postCtrl.post.title && postCtrl.post.author">
+    <hr />
+    <h4>Preview</h4>
+    <div class="row well">
+      <blog-post post="postCtrl.post"></blog-post>
+    </div>
+  </div>
+
+  <h3>New post</h3>
+  <fieldset class="form-group">
+    <input ng-model="postCtrl.post.title" class="form-control" placeholder="Title" required></input>
+  </fieldset>
+  <fieldset class="form-group">
+    <input ng-model="postCtrl.post.author" class="form-control" placeholder="Your name" required></input>
+  </fieldset>
+  <fieldset class="form-group">
+    <textarea ng-model="postCtrl.post.body" class="form-control" placeholder="Your post goes here." rows="4" required></textarea>
+  </fieldset>
+  <fieldset class="form-group">
+    <input type="submit" class="btn btn-primary pull-right" value="Submit post" />
+  </fieldset>
+</form>

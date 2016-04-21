@@ -2,10 +2,20 @@
 
 Test application for playing with the AngularJS framework.
 
-## Build & development
+## Getting started
 
-Run `grunt` for building and `grunt serve` for preview.
+Clone the repo
 
-## Testing
+`git clone https://github.com/mattantonelli/ng-blog`
 
-Running `grunt test` will run the unit tests with karma.
+Install packages
+
+`bower install & npm install`
+
+Start the server
+
+`grunt serve`
+
+Navigate to the application
+
+http://localhost:3000

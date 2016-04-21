@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('blogApp')
   .directive('blogPost', function () {
     return {

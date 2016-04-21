@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('blogApp')
   .controller('PostController', function () {
     this.post = {};

@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('blogApp')
   .controller('BlogController', ['$http', function($http) {
     var blog = this;

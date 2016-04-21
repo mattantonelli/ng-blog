@@ -8,7 +8,11 @@ Clone the repo
 
 `git clone https://github.com/mattantonelli/ng-blog`
 
-Install packages
+Install global packages (if necessary)
+
+`npm install -g bower grunt-cli`
+
+Install local packages
 
 `bower install & npm install`
 
